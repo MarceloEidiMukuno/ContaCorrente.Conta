@@ -4,7 +4,7 @@ namespace ContaCorrente.ApiConta.Models
 {
     public class Transacao
     {
-        public int Id { get; set; }
+        public int TransacaoId { get; set; }
         public string Agencia { get; set; }
         public string Conta { get; set; }
         public decimal Valor { get; set; }
